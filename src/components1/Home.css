@@ -1,0 +1,141 @@
+/* General styles */
+.body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.home {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0044cc, #0033aa);
+  color: white;
+  border-radius: 8px;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero-text {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+/* About section */
+.about-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Features section */
+.features-section {
+  padding: 60px 20px;
+  background-color: #f1f1f1;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.features-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  background-color: white;
+  padding: 30px;
+  flex: 1 1 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feature-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.feature-text {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Button styles */
+button {
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0033aa;
+}
